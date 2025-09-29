@@ -23,6 +23,23 @@ Questions regarding the simulators/autodiff compiler go to Yuanming Hu (yuanming
 ### Note: Updates on October 27 2021
 Examples are now compatible with Taichi `v0.8.3`. Please update Taichi if you are using an old version.
 
+## All 10 Projects
+> 
+> 1. `diffmpm.py`
+> 2. `diffmpm_simple.py`
+> 3. `diffmpm_benchmark.py`
+> 4. `diffmpm_checkpointing.py`
+> 5. `diffmpm3d.py`
+> 6. `smoke_autograd.py`
+> 7. `smoke_jax.py`
+> 8. `smoke_pytorch.py`
+> 9. `smoke_taichi.py`
+> 10. `smoke_taichi_cpu.py`
+> 10. `smoke_taichi_gpu.py`
+
+- 其中 `diffmpm` 系列是 MPM 仿真相关，`smoke` 系列是烟雾/流体仿真相关，分别用不同框架实现。
+- 需要按照`./requirements.txt`中指示安装。
+
 ## How to run
 Step 1: Install [`Taichi`](https://github.com/taichi-dev/taichi) with `pip`:
 
